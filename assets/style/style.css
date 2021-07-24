@@ -1,8 +1,8 @@
 /*Variáveis*/
 :root {
-    --bgSite: #d7d4ff;
+    --bgTopo: #d7d4ff;
     --buttonColor: #5047fc;
-  
+    --BgMain: hsl(0, 0%, 22%);
     --white: #ffffff;
     --white300: #f9f9f9;
   
@@ -52,40 +52,46 @@ section .conteudo-topo{
   align-items: center;
   justify-content:space-around;
   height: 60vh;
-  background-color: var(--bgSite);
-  font-family: Lato ;
+  background-color: var(--bgTopo);
+  font-family: Lato;
   
 }
 
 section .conteudo-topo .texto-botao{
-  width: 25rem;
+  width: 26rem;
   line-height: 1.8;
 }
 
 section .conteudo-topo .texto-botao h2{
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: var(--title);
+  margin-bottom: 1.2rem;
+  font-family:"Lato";
 }
 
 section .conteudo-topo .texto-botao p{
   color: var(--text);
+  font-size: 1.2rem;
 }
 
 section .conteudo-topo .texto-botao input{
   background-color: var(--buttonColor);
-  width: 8rem;
-  height: 2rem;
+  width: 12rem;
+  height: 2.8rem;
+  font-size: 1.4rem;
   border-radius: 4px;
   color: var(--white);
   margin-top: 2.2rem;
   cursor: pointer;
   box-shadow: 1px 1px 3px grey;
+  
 }
 section .conteudo-topo .imagem{
 
 }
 
 section .conteudo-topo .imagem img{
+  background-repeat: no-repeat;
   max-width:500px;
   max-height:300px;
   width: auto;
@@ -93,6 +99,86 @@ section .conteudo-topo .imagem img{
   filter: drop-shadow(0 0 0.22rem var(--title));
 }
 
+main{
+
+}
+
+main .principal{
+  height: 110vh;
+ display: grid;
+ grid-template-rows: auto auto;
+ grid-template-columns: 1fr 1fr 1fr;
+ justify-items: center;
+ align-content: center;
+ row-gap: 60px;
+ background-color: var(--BgMain);
+ 
+}
+
+main .principal .card{
+  background-color: var(--white300);
+  width: 18vw;
+  border-radius: 12px;
+  
+  
+}
+
+main .principal .card .vermelho{
+background-color: #ff0000;
+height: 18vh;
 
 
+}
+
+main .principal .card .azul{
+  background-color: #0000ff;
+  height: 18vh;
+  
+}
+main .principal .card .rosa{
+  background-color: #ffc0cb;
+  height: 18vh;
+  
+}
+main .principal .card .verde{
+  background-color: #008000;
+  height: 18vh;
+  
+}
+main .principal .card .amarelo{
+  background-color: #ffff00;
+  height: 18vh;
+  
+}
+main .principal .card .roxo{
+  background-color: #800080;
+  height: 18vh;
+  
+}
+
+main .principal .card .titulo-texto{
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1.2rem;
+  
+}
+
+main .principal .card .titulo-texto  .titulo-card{
+  margin-bottom: 1rem;
+  font-family: "Merriweather Bold";
+  color: var(--title);
+  font-size: 1.4rem;
+
+}
+
+
+
+main .principal .card .titulo-texto p{
+  line-height: 1.4;
+  color: var(--text);
+  font-family:"Lato";
+  font-size: 1.2rem;
+}
 
