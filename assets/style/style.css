@@ -182,3 +182,45 @@ main .principal .card .titulo-texto p{
   font-size: 1.2rem;
 }
 
+.formulario{
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  background-color: var(--bgTopo);
+  font-family: Lato;
+}
+
+.formulario p{
+  font-size: 2.2rem;
+}
+
+.formulario input{
+  width: 30rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+
+.formulario textarea{
+  width: 30rem;
+  padding-top: 1rem;
+  font-family: Lato;
+  font-size: 1.2rem;
+  resize: none;
+}
+
+textarea, input{
+  padding-left: 1rem;
+}
+
+input[type="submit"]{
+  background-color: var(--buttonColor);
+  color: var(--white300);
+  font-weight: bold;
+  cursor: pointer;
+}
+
