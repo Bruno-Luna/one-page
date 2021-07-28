@@ -5,7 +5,6 @@
     --BgMain: hsl(0, 0%, 22%);
     --white: #ffffff;
     --white300: #f9f9f9;
-  
     --title: #2b2b2b;
     --text: #555555;
   }
@@ -93,8 +92,8 @@ section .conteudo-topo .imagem{
 
 section .conteudo-topo .imagem img{
   background-repeat: no-repeat;
-  max-width:500px;
-  max-height:300px;
+  max-width:600px;
+  max-height:400px;
   width: auto;
   height: auto;
   filter: drop-shadow(0 0 0.22rem var(--title));
@@ -105,7 +104,7 @@ main{
 }
 
 main .principal{
-  height: 110vh;
+ height: 110vh;
  display: grid;
  grid-template-rows: auto auto;
  grid-template-columns: 1fr 1fr 1fr;
@@ -190,7 +189,7 @@ main .principal .card .titulo-texto p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 18px;
+  gap: 30px;
   background-color: var(--bgTopo);
   font-family: Lato;
 }
@@ -251,4 +250,69 @@ footer{
 
 footer span a{
   color: var(--white300);
+}
+
+@media only screen and (min-width:250px) and (max-width:599px){
+
+  html,body{
+    height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  section .conteudo-topo{
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    background-color: var(--bgTopo);
+    font-family: Lato;
+    
+  }
+  section .conteudo-topo .texto-botao h2{
+    font-size: 2rem;
+
+  }
+  section .conteudo-topo .texto-botao {
+   width: 18rem;
+  }
+
+  section .conteudo-topo .imagem img {
+    max-width: 310px;
+    max-height: 310px;
+
+}
+
+main .principal {
+  height: 320vh;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: center;
+  row-gap: 80px;
+}
+
+main .principal .card{
+  width: 80vw; 
+  
+}
+
+main .principal .card .vermelho,  main .principal .card .azul,
+main .principal .card .rosa, main .principal .card .verde,
+main .principal .card .amarelo, main .principal .card .roxo,
+main .principal .card .titulo-texto{
+
+  height: 20vh;
+
+}
+
+.formulario{
+  height: 100vh;
+  gap: 16px;
+}
+
+textarea, input{
+    max-width: 90%;
+}
+
 }
