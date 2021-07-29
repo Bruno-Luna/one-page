@@ -33,7 +33,7 @@
 }
 
 button,
-input {
+input, textarea {
   border: 0;
 }
 
@@ -43,27 +43,24 @@ body{
 
 }
 
-section{
-
-}
-
 section .conteudo-topo{
   display: flex;
   align-items: center;
   justify-content:space-around;
-  height: 60vh;
+  height: 80vh;
   background-color: var(--bgTopo);
   font-family: Lato;
   
 }
 
 section .conteudo-topo .texto-botao{
-  width: 26rem;
+  width: 30rem;
   line-height: 1.8;
+  margin-left: 1.2rem;
 }
 
 section .conteudo-topo .texto-botao h2{
-  font-size: 2.2rem;
+  font-size: 3rem;
   color: var(--title);
   margin-bottom: 1.2rem;
   font-family:"Lato";
@@ -81,26 +78,19 @@ section .conteudo-topo .texto-botao input{
   font-size: 1.4rem;
   border-radius: 4px;
   color: var(--white);
-  margin-top: 2.2rem;
   cursor: pointer;
+  margin-top: 2rem;
   box-shadow: 1px 1px 3px grey;
   
 }
-section .conteudo-topo .imagem{
 
-}
 
 section .conteudo-topo .imagem img{
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  max-width:600px;
-  max-height:400px;
-  width: auto;
-  height: auto;
+  width: 100%;
   filter: drop-shadow(0 0 0.22rem var(--title));
-}
-
-main{
-
+  margin-right: 1.4rem;
 }
 
 main .principal{
@@ -112,49 +102,53 @@ main .principal{
  align-content: center;
  row-gap: 60px;
  background-color: var(--BgMain);
- 
+
 }
 
 main .principal .card{
   background-color: var(--white300);
-  width: 18vw;
+  width: 24vw;
   border-radius: 12px;
-  
   
 }
 
 main .principal .card .vermelho{
 background-color: #ff0000;
-height: 18vh;
-
 
 }
 
 main .principal .card .azul{
   background-color: #0000ff;
-  height: 18vh;
   
 }
+
 main .principal .card .rosa{
   background-color: #ffc0cb;
-  height: 18vh;
   
 }
+
 main .principal .card .verde{
   background-color: #008000;
-  height: 18vh;
   
 }
+
 main .principal .card .amarelo{
   background-color: #ffff00;
-  height: 18vh;
   
 }
+
 main .principal .card .roxo{
   background-color: #800080;
-  height: 18vh;
-  
+
 }
+
+main .principal .card .roxo, main .principal .card .amarelo,
+main .principal .card .verde, main .principal .card .rosa,
+main .principal .card .azul, main .principal .card .vermelho{
+
+  height: 18vh;
+}
+
 
 main .principal .card .titulo-texto{
   height: 18vh;
@@ -189,7 +183,7 @@ main .principal .card .titulo-texto p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   background-color: var(--bgTopo);
   font-family: Lato;
 }
@@ -222,7 +216,6 @@ input::placeholder{
   resize: none;
   color: var(--text);
   border-radius: 6px;
-  border: none;
   opacity: .7;
   box-shadow: 2px 2px 4px hsl(244, 100%, 80%);
 }
@@ -246,10 +239,77 @@ footer{
   justify-content: center;
   background-color: hsl(0, 0%, 18%);
   color: var(--white300);
+  font-size: 1rem;
 }
 
 footer span a{
   color: var(--white300);
+}
+
+@media only screen and (min-width:600px) and (max-width:868px){
+
+  html,body{
+    height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  section .conteudo-topo{
+    display: flex;
+    height: 100vh;
+    
+    
+  }
+  section .conteudo-topo .texto-botao h2{
+    font-size: 2.2rem;
+    margin-left: 1rem;
+
+  }
+  section .conteudo-topo .texto-botao {
+   width: 22rem;
+   margin-left: 1rem;
+    
+  }
+
+  section .conteudo-topo .imagem img {
+    width: 90%;
+  
+}
+
+main .principal {
+  height: 160vh;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  row-gap: 80px;
+}
+
+main .principal .card{
+  width: 40vw; 
+  
+}
+
+main .principal .card .vermelho,  main .principal .card .azul,
+main .principal .card .rosa, main .principal .card .verde,
+main .principal .card .amarelo, main .principal .card .roxo,
+main .principal .card .titulo-texto{
+
+  height: 20vh;
+
+}
+
+.formulario{
+  height: 100vh;
+  gap: 26px;
+}
+
+textarea, input{
+    max-width: 100%;
+}
+
+
 }
 
 @media only screen and (min-width:250px) and (max-width:599px){
@@ -264,8 +324,7 @@ footer span a{
     display: flex;
     flex-direction: column;
     height: 120vh;
-    background-color: var(--bgTopo);
-    font-family: Lato;
+    
     
   }
   section .conteudo-topo .texto-botao h2{
@@ -273,17 +332,18 @@ footer span a{
 
   }
   section .conteudo-topo .texto-botao {
-   width: 18rem;
+   width: 16rem;
   }
 
   section .conteudo-topo .imagem img {
     max-width: 310px;
-    max-height: 310px;
+    max-height: 290px;
+    margin-bottom: 1rem;
 
 }
 
 main .principal {
-  height: 320vh;
+  height: 360vh;
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 1fr;
@@ -302,12 +362,12 @@ main .principal .card .rosa, main .principal .card .verde,
 main .principal .card .amarelo, main .principal .card .roxo,
 main .principal .card .titulo-texto{
 
-  height: 20vh;
+  height: 22vh;
 
 }
 
 .formulario{
-  height: 100vh;
+  height: 110vh;
   gap: 16px;
 }
 
