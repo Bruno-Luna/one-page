@@ -1,6 +1,6 @@
 # **One-Page**
 
-## :construction:
+## O projeto foi uma iniciativa do dev [**Iuri**](https://github.com/iuricode) à comunidade *Codelândia*. Foi sugerido as cores, fontes e imagens . Para fins de incremento do presente trabalho importei a fonte utilizada do site [*Google Fonts*](https://fonts.google.com/).
 
 
 
@@ -19,24 +19,35 @@
 
 ## :tada:  Link:
 
-
+https://bruno-luna.github.io/one-page/
 
 ## Estrutura do diretório:
 
-- 
+- one-page/
 
+  - index.html
+  - readme
+  - assets/
+    - screenshot/
+      - mobile.png
+      - desktop.png
+    - img/
+      - image.svg
+    - style/
+      - style.css
+  
   
 
 ## Especificações:
 
-- Fontes utilizadas: 
+- Fontes utilizadas: `Roboto, sans-serif` 
 
 - Cores utilizadas:  
 
-  - 
-  - 
-  - 
-  - 
+  - Cinza: `#555555`
+  - Azul: `#d7d4ff, #5047fc`
+  - Preto: `hsl(0, 0%, 22%), #2b2b2b`
+  - Branco: `#f9f9f9, #ffffff`
 
   
 
@@ -45,7 +56,7 @@
 
 ### Desktop:
 
-![])
+![]())
 
 ### Mobile:
 

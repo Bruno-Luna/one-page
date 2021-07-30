@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,500&display=swap');
+
 /*Variáveis*/
 :root {
     --bgTopo: #d7d4ff;
@@ -9,20 +12,6 @@
     --text: #555555;
   }
 
-  @font-face {
-    font-family: Lato;
-    src: url("/assets/fonts/Lato-Regular.ttf");
- }
-
- @font-face {
-  font-family: "Merriweather Bold";
-  src: url("/assets/fonts/Merriweather-Bold.ttf");
-}
-
-@font-face {
-  font-family: "Merriweather Regular";
-  src: url("/assets/fonts/Merriweather-Regular.ttf");
-}
 
 *{
     margin: 0;
@@ -40,6 +29,7 @@ input, textarea {
 body{
   width: 100%;
   height: 100vh;
+  font-family: Roboto, sans-serif;
 
 }
 
@@ -49,7 +39,6 @@ section .conteudo-topo{
   justify-content:space-around;
   height: 80vh;
   background-color: var(--bgTopo);
-  font-family: Lato;
   
 }
 
@@ -60,10 +49,10 @@ section .conteudo-topo .texto-botao{
 }
 
 section .conteudo-topo .texto-botao h2{
+  font-weight: bolder;
   font-size: 3rem;
   color: var(--title);
   margin-bottom: 1.2rem;
-  font-family:"Lato";
 }
 
 section .conteudo-topo .texto-botao p{
@@ -161,7 +150,6 @@ main .principal .card .titulo-texto{
 
 main .principal .card .titulo-texto  .titulo-card{
   margin-bottom: 1rem;
-  font-family: "Merriweather Bold";
   color: var(--title);
   font-size: 1.4rem;
 
@@ -172,7 +160,6 @@ main .principal .card .titulo-texto  .titulo-card{
 main .principal .card .titulo-texto p{
   line-height: 1.4;
   color: var(--text);
-  font-family:"Lato";
   font-size: 1.2rem;
 }
 
@@ -185,7 +172,6 @@ main .principal .card .titulo-texto p{
   align-items: center;
   gap: 20px;
   background-color: var(--bgTopo);
-  font-family: Lato;
 }
 
 .formulario p{
@@ -301,7 +287,7 @@ main .principal .card .titulo-texto{
 }
 
 .formulario{
-  height: 100vh;
+  height: 120vh;
   gap: 26px;
 }
 
@@ -323,7 +309,7 @@ textarea, input{
   section .conteudo-topo{
     display: flex;
     flex-direction: column;
-    height: 120vh;
+    height: 140vh;
     
     
   }
