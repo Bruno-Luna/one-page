@@ -1,6 +1,6 @@
 # **One-Page**
 
-## O projeto foi uma iniciativa do dev [**Iuri**](https://github.com/iuricode) à comunidade *Codelândia*. Foi sugerido as cores, fontes e imagens . Para fins de incremento do presente trabalho importei a fonte utilizada do site [*Google Fonts*](https://fonts.google.com/).
+### O projeto foi uma iniciativa do dev [**Iuri**](https://github.com/iuricode) à comunidade *Codelândia*. Foi sugerido as cores, fontes e imagens . Para fins de incremento do presente trabalho importei a fonte utilizada do site [*Google Fonts*](https://fonts.google.com/).
 
 
 
@@ -56,7 +56,7 @@ https://bruno-luna.github.io/one-page/
 
 ### Desktop:
 
-![]())
+![](https://github.com/Bruno-Luna/one-page/blob/master/assets/screenshot/desktop.png)
 
 ### Mobile:
 
