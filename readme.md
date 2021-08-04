@@ -2,7 +2,7 @@
 
 ![APM](https://camo.githubusercontent.com/2b5be4f21ba05bac285e81a1a1f11036ee50ca3bb9b2b7b00a3cd1cf0589b2fc/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f76696d2d6d6f64653f636f6c6f723d626c7565)
 
-### O projeto foi uma iniciativa do dev [**Iuri**](https://github.com/iuricode) à comunidade *Codelândia*. Foi sugerido as cores, fontes e imagens . A página teve por principal desafio a utilização do display grid, bem como sua respectiva responsividade. Para fins de incremento do presente trabalho importei a fonte utilizada do site [*Google Fonts*](https://fonts.google.com/) e foi inserido a biblioteca `ScrollReveal` para fazer as animações dos cards.
+O projeto foi uma iniciativa do dev [**Iuri**](https://github.com/iuricode) à comunidade *Codelândia*. Foi sugerido as cores, fontes e imagens . A página teve por principal desafio a utilização e manipulação da propriedade `display grid`, bem como sua respectiva responsividade. Para fins de incremento do presente trabalho importei a fonte utilizada do site [*Google Fonts*](https://fonts.google.com/) e foi inserido a biblioteca `ScrollReveal` para fazer as animações dos cards.
 
 
 
@@ -14,13 +14,13 @@
 
 - [![JavaScript](https://camo.githubusercontent.com/ddbeaac0298ab7864fff9ed11ff78cc48623e4ff75b6ba770ceeb80fb2aa9685/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d3030303030303f7374796c653d666c6174266c6f676f3d6a617661736372697074)](https://camo.githubusercontent.com/ddbeaac0298ab7864fff9ed11ff78cc48623e4ff75b6ba770ceeb80fb2aa9685/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d3030303030303f7374796c653d666c6174266c6f676f3d6a617661736372697074) (*Biblioteca Scollreveal*)
 
-  
-
 
 
 ## :tada:  Link:
 
 https://bruno-luna.github.io/one-page/
+
+
 
 ## Estrutura do diretório:
 
@@ -32,14 +32,15 @@ https://bruno-luna.github.io/one-page/
     - script/
       - script.js
     - screenshot/
-      - mobile.png
+
       - desktop.png
     - img/
       - image.svg
     - style/
       - style.css
-  
-  
+      
+        
+
 
 ## Especificações:
 
@@ -52,12 +53,9 @@ https://bruno-luna.github.io/one-page/
   - Preto: `hsl(0, 0%, 22%), #2b2b2b`
   - Branco: `#f9f9f9, #ffffff`
 
-  
 
 
 ## Screenshot: 
-
-### Desktop:
 
 ![](https://github.com/Bruno-Luna/one-page/blob/master/assets/screenshot/desktop.png)
 
